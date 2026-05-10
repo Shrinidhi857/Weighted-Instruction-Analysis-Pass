@@ -1,0 +1,8 @@
+EXPLANATION: Why Weighted Instruction Analysis Matters
+
+Raw instruction counting is misleading because not all operations have equal computational cost on real hardware.
+A function with 100 simple arithmetic operations (add, sub) may execute faster than one with just 50 load instructions 
+or function calls, since loads involve main memory latency and calls incur context-switch overhead. Our weighted system 
+accurately reflects this hardware reality by assigning higher costs to expensive operations (load/store = 3 cycles, 
+call = 5 cycles) relative to cheap arithmetic (add/sub = 1 cycle), enabling developers and compiler optimizers to 
+identify true performance bottlenecks without requiring runtime profiling.

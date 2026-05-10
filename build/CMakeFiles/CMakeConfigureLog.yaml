@@ -1,0 +1,2413 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 15.9.30+gc0e4b0e683 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10-05-2026 13:00:26.
+      Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\code-2026\\cd-el\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.63
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/code-2026/cd-el/build/CMakeFiles/4.3.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Python312/Scripts/"
+      - "C:/Program Files/Python312/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/anaconda3/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/shrin/AppData/Local/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/nvm/"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "C:/Program Files/Zulu/zulu-8/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Pandoc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Use/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Python312/Scripts/"
+      - "C:/Program Files/Python312/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/anaconda3/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/shrin/AppData/Local/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/nvm/"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "C:/Program Files/Zulu/zulu-8/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Pandoc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Use/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/lld-link"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/lld-link"
+      - "C:/Program Files/Python312/Scripts/lld-link.com"
+      - "C:/Program Files/Python312/Scripts/lld-link.exe"
+      - "C:/Program Files/Python312/Scripts/lld-link"
+      - "C:/Program Files/Python312/lld-link.com"
+      - "C:/Program Files/Python312/lld-link.exe"
+      - "C:/Program Files/Python312/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/lld-link.com"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/lld-link.exe"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/lld-link"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/lld-link.com"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/lld-link.exe"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/anaconda3/lld-link.com"
+      - "C:/anaconda3/lld-link.exe"
+      - "C:/anaconda3/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/lld-link.com"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/lld-link.exe"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/lld-link"
+      - "C:/Program Files/MATLAB/R2024b/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2024b/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2024b/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/shrin/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/shrin/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/shrin/AppData/Local/nvm/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/nvm/lld-link.com"
+      - "C:/Program Files/nvm/lld-link.exe"
+      - "C:/Program Files/nvm/lld-link"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/lld-link.com"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/lld-link.exe"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/lld-link"
+      - "C:/Program Files/Zulu/zulu-8/bin/lld-link.com"
+      - "C:/Program Files/Zulu/zulu-8/bin/lld-link.exe"
+      - "C:/Program Files/Zulu/zulu-8/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lld-link"
+      - "C:/Program Files/Pandoc/lld-link.com"
+      - "C:/Program Files/Pandoc/lld-link.exe"
+      - "C:/Program Files/Pandoc/lld-link"
+      - "C:/Program Files/LLVM/bin/lld-link.com"
+    found: "C:/Program Files/LLVM/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Python312/Scripts/"
+      - "C:/Program Files/Python312/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/anaconda3/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/shrin/AppData/Local/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/nvm/"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "C:/Program Files/Zulu/zulu-8/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Pandoc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Use/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Python312/Scripts/"
+      - "C:/Program Files/Python312/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/anaconda3/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/shrin/AppData/Local/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/nvm/"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "C:/Program Files/Zulu/zulu-8/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Pandoc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Use/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/mt"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/mt.com"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/mt.exe"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/mt"
+      - "C:/Program Files/Python312/Scripts/mt.com"
+      - "C:/Program Files/Python312/Scripts/mt.exe"
+      - "C:/Program Files/Python312/Scripts/mt"
+      - "C:/Program Files/Python312/mt.com"
+      - "C:/Program Files/Python312/mt.exe"
+      - "C:/Program Files/Python312/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/mt.com"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/mt.exe"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/mt"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/mt.com"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/mt.exe"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/anaconda3/mt.com"
+      - "C:/anaconda3/mt.exe"
+      - "C:/anaconda3/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/mt.com"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/mt.exe"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/mt"
+      - "C:/Program Files/MATLAB/R2024b/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2024b/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2024b/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/shrin/AppData/Local/nvm/mt.com"
+      - "C:/Users/shrin/AppData/Local/nvm/mt.exe"
+      - "C:/Users/shrin/AppData/Local/nvm/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/nvm/mt.com"
+      - "C:/Program Files/nvm/mt.exe"
+      - "C:/Program Files/nvm/mt"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/mt.com"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/mt.exe"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/mt"
+      - "C:/Program Files/Zulu/zulu-8/bin/mt.com"
+      - "C:/Program Files/Zulu/zulu-8/bin/mt.exe"
+      - "C:/Program Files/Zulu/zulu-8/bin/mt"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/mt"
+      - "C:/Program Files/Pandoc/mt.com"
+      - "C:/Program Files/Pandoc/mt.exe"
+      - "C:/Program Files/Pandoc/mt"
+      - "C:/Program Files/LLVM/bin/mt.com"
+      - "C:/Program Files/LLVM/bin/mt.exe"
+      - "C:/Program Files/LLVM/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Use/mt.com"
+      - "C:/Use/mt.exe"
+      - "C:/Use/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Python312/Scripts/"
+      - "C:/Program Files/Python312/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/anaconda3/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/shrin/AppData/Local/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/nvm/"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "C:/Program Files/Zulu/zulu-8/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Pandoc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Use/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x86/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 15.9.30+gc0e4b0e683 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 10-05-2026 13:00:28.
+      Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\code-2026\\cd-el\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.96
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/code-2026/cd-el/build/CMakeFiles/4.3.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/"
+      - "C:/Program Files/Python312/Scripts/"
+      - "C:/Program Files/Python312/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/anaconda3/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/shrin/AppData/Local/nvm/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/nvm/"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/"
+      - "C:/Program Files/Zulu/zulu-8/bin/"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+      - "C:/Program Files/Pandoc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Use/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/bin/"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/sbin/"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/"
+    searched_directories:
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/rc.com"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/rc.exe"
+      - "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/rc"
+      - "C:/Program Files/Python312/Scripts/rc.com"
+      - "C:/Program Files/Python312/Scripts/rc.exe"
+      - "C:/Program Files/Python312/Scripts/rc"
+      - "C:/Program Files/Python312/rc.com"
+      - "C:/Program Files/Python312/rc.exe"
+      - "C:/Program Files/Python312/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/rc.com"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/rc.exe"
+      - "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/rc"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/rc.com"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/rc.exe"
+      - "C:/Users/shrin/PycharmProjects/app/venv/Scripts/streamlit.cmd/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/anaconda3/rc.com"
+      - "C:/anaconda3/rc.exe"
+      - "C:/anaconda3/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/rc.com"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/rc.exe"
+      - "C:/Program Files/MongoDB/Server/8.0/bin/rc"
+      - "C:/Program Files/MATLAB/R2024b/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2024b/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2024b/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/shrin/AppData/Local/nvm/rc.com"
+      - "C:/Users/shrin/AppData/Local/nvm/rc.exe"
+      - "C:/Users/shrin/AppData/Local/nvm/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/nvm/rc.com"
+      - "C:/Program Files/nvm/rc.exe"
+      - "C:/Program Files/nvm/rc"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/rc.com"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/rc.exe"
+      - "C:/Program Files/MySQL/MySQL Server 8.0/bin/rc"
+      - "C:/Program Files/Zulu/zulu-8/bin/rc.com"
+      - "C:/Program Files/Zulu/zulu-8/bin/rc.exe"
+      - "C:/Program Files/Zulu/zulu-8/bin/rc"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/rc"
+      - "C:/Program Files/Pandoc/rc.com"
+      - "C:/Program Files/Pandoc/rc.exe"
+      - "C:/Program Files/Pandoc/rc"
+      - "C:/Program Files/LLVM/bin/rc.com"
+      - "C:/Program Files/LLVM/bin/rc.exe"
+      - "C:/Program Files/LLVM/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Use/rc.com"
+      - "C:/Use/rc.exe"
+      - "C:/Use/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/bin/rc.com"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/bin/rc.exe"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/bin/rc"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/sbin/rc.com"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/sbin/rc.exe"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/sbin/rc"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/rc.com"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/rc.exe"
+      - "C:/Program Files (x86)/WeightedInstructionAnalysis/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/WeightedInstructionAnalysis"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/WeightedInstructionAnalysis"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-rqudtu"
+      binary: "C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-rqudtu"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-rqudtu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/MSBuild/15.0/Bin/MSBuild.exe" cmTC_15913.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine version 15.9.30+gc0e4b0e683 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10-05-2026 13:00:30.
+        Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqudtu\\cmTC_15913.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqudtu\\Debug\\".
+          Creating directory "cmTC_15913.dir\\Debug\\cmTC_15913.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_15913.dir\\Debug\\cmTC_15913.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_15913.dir\\Debug\\\\" /Fd"cmTC_15913.dir\\Debug\\vc141.pdb" /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27054 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_15913.dir\\Debug\\\\" /Fd"cmTC_15913.dir\\Debug\\vc141.pdb" /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqudtu\\Debug\\cmTC_15913.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-rqudtu/Debug/cmTC_15913.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-rqudtu/Debug/cmTC_15913.lib" /MACHINE:X86  /machine:X86 cmTC_15913.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_15913.vcxproj -> C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqudtu\\Debug\\cmTC_15913.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_15913.dir\\Debug\\cmTC_15913.tlog\\unsuccessfulbuild".
+          Touching "cmTC_15913.dir\\Debug\\cmTC_15913.tlog\\cmTC_15913.lastbuildstate".
+        Done Building Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rqudtu\\cmTC_15913.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27054.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-znladt"
+      binary: "C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-znladt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-znladt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/MSBuild/15.0/Bin/MSBuild.exe" cmTC_59228.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine version 15.9.30+gc0e4b0e683 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 10-05-2026 13:00:32.
+        Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-znladt\\cmTC_59228.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-znladt\\Debug\\".
+          Creating directory "cmTC_59228.dir\\Debug\\cmTC_59228.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_59228.dir\\Debug\\cmTC_59228.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_59228.dir\\Debug\\\\" /Fd"cmTC_59228.dir\\Debug\\vc141.pdb" /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27054 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_59228.dir\\Debug\\\\" /Fd"cmTC_59228.dir\\Debug\\vc141.pdb" /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\WDExpress\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-znladt\\Debug\\cmTC_59228.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-znladt/Debug/cmTC_59228.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/code-2026/cd-el/build/CMakeFiles/CMakeScratch/TryCompile-znladt/Debug/cmTC_59228.lib" /MACHINE:X86  /machine:X86 cmTC_59228.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_59228.vcxproj -> C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-znladt\\Debug\\cmTC_59228.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_59228.dir\\Debug\\cmTC_59228.tlog\\unsuccessfulbuild".
+          Touching "cmTC_59228.dir\\Debug\\cmTC_59228.tlog\\cmTC_59228.lastbuildstate".
+        Done Building Project "C:\\code-2026\\cd-el\\build\\CMakeFiles\\CMakeScratch\\TryCompile-znladt\\cmTC_59228.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.99
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2017/WDExpress/VC/Tools/MSVC/14.16.27023/bin/HostX86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27054.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:5 (find_package)"
+    name: "LLVM"
+    configs:
+      -
+        filename: "LLVM.cps"
+        kind: "cps"
+      -
+        filename: "llvm.cps"
+        kind: "cps"
+      -
+        filename: "LLVMConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "llvm-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "LLVM"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/LLVM.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/llvm.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/LLVMConfig.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/llvm-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/code-2026/cd-el/build/CMakeFiles/pkgRedirects/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/code-2026/cd-el/build/CMakeFiles/pkgRedirects/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/code-2026/cd-el/build/CMakeFiles/pkgRedirects/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/code-2026/cd-el/build/CMakeFiles/pkgRedirects/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/code-2026/cd-el/build/CMakeFiles/pkgRedirects/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/code-2026/cd-el/build/CMakeFiles/pkgRedirects/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/Programs/Microsoft VS Code/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/Scripts/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/Scripts/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/Scripts/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/Scripts/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/Scripts/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/Scripts/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Python312/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/llvmlite-0.43.0.dist-info/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/llvmlite-0.43.0.dist-info/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/llvmlite/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/llvmlite/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Roaming/Python/Python312/site-packages/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Docker/Docker/resources/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MongoDB/Server/8.0/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MongoDB/Server/8.0/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MongoDB/Server/8.0/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MongoDB/Server/8.0/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MongoDB/Server/8.0/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MongoDB/Server/8.0/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/nvm/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/nvm/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/nvm/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/nvm/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/nvm/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/shrin/AppData/Local/nvm/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Server 8.0/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Server 8.0/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Server 8.0/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Server 8.0/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Server 8.0/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MySQL/MySQL Server 8.0/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Zulu/zulu-8/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Zulu/zulu-8/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Zulu/zulu-8/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Zulu/zulu-8/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Zulu/zulu-8/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Zulu/zulu-8/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Pandoc/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Pandoc/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Pandoc/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Pandoc/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Pandoc/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Pandoc/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cmake/llvm/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/LLVMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/llvm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/LLVM.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/llvm.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin"
+        - "C:\\Program Files\\Zulu\\zulu-8\\bin\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
+        - "C:\\Users\\shrin\\AppData\\Local\\nvm"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\Pandoc\\"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\shrin\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\shrin\\AppData\\Local\\Programs\\Microsoft VS Code"
+        - "C:\\Program Files\\Python312\\Scripts\\"
+        - "C:\\Program Files\\Python312\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Users\\shrin\\AppData\\Roaming\\Python\\Python312\\site-packages"
+        - "C:\\Users\\shrin\\PycharmProjects\\app\\venv\\Scripts\\streamlit.cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\anaconda3"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\MongoDB\\Server\\8.0\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Use"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/WeightedInstructionAnalysis"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/WeightedInstructionAnalysis"
+...
