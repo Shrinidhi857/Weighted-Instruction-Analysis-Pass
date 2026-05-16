@@ -17,11 +17,6 @@ add_llvm_pass_plugin(WeightedInstructionAnalysis
   WeightedPass.cpp
 )
 
-# Link against LLVM libraries
-target_link_libraries(WeightedInstructionAnalysis PRIVATE
-  LLVMCore
-  LLVMSupport
-)
 
 # Include LLVM headers
 target_include_directories(WeightedInstructionAnalysis PRIVATE
