@@ -14,7 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED YES)
 
 # Add the plugin library
 add_llvm_pass_plugin(WeightedInstructionAnalysis
-  WeightedPass.cpp
+  src/WeightedPass.cpp
 )
 
 

@@ -1,163 +1,176 @@
-# Weighted Instruction Analysis LLVM Pass
+# Weighted Instruction Analysis LLVM Pass - ENHANCED EDITION
 
-## Project Overview
+## 🚀 Project Overview
 
-The Weighted Instruction Analysis pass is an LLVM compiler pass that analyzes LLVM intermediate representation (IR) code and calculates weighted computational complexity metrics for functions. This pass assigns different weights to different instruction types based on their computational cost:
+The **Weighted Instruction Analysis pass** is a sophisticated LLVM compiler pass that analyzes LLVM intermediate representation (IR) code and calculates weighted computational complexity metrics for functions.
 
-- **Arithmetic Operations** (add, sub, fadd, fsub): Weight 1 - Simple operations with minimal computational overhead
-- **Multiplication/Division** (mul, sdiv, udiv, fmul, fdiv, srem, urem, frem): Weight 2 - More expensive than basic arithmetic
-- **Memory Operations** (load, store, alloca): Weight 3 - Access to memory has higher latency than register operations
-- **Function Calls** (call, invoke): Weight 5 - Most expensive due to context switching and potential side effects
-- **Other Instructions**: Weight 1 - Default weight for control flow and other operations
+### What Makes This Version Extraordinary
 
-The pass produces detailed analysis output showing:
+Unlike basic instruction counting tools, this enhanced version provides:
 
-- Frequency of each instruction type
-- Total weighted cost across all instructions
-- The most expensive instruction type and its impact
+✨ **Intelligent Performance Analysis**
 
-This is useful for:
+- Anti-pattern detection with severity levels
+- Automated optimization recommendations
+- Memory vs Compute profiling
+- Vectorization opportunity identification
 
-- Performance profiling and bottleneck identification
-- Code optimization targeting
-- Understanding computational complexity distribution in functions
-- Compiler research and education
+🎯 **Multi-Format Reporting**
+
+- Enhanced console output with formatting
+- JSON export for tool integration
+- CSV export for spreadsheet analysis
+- Comparative function analysis
+
+🛠️ **Production-Ready Toolchain**
+
+- Python analysis toolkit with CLI
+- Bash/PowerShell workflow automation
+- Before/after comparison support
+- Module-level statistics aggregation
 
 ---
 
-## Complete Setup and Build Workflow
+## 📊 Core Features
 
-### Step 1: Environment Setup on Kali Linux
+### 1. Weight-Based Instruction Scoring
 
-If running on a virtual machine with shared folders, install VMware tools for file sharing:
+Assigns computational costs based on instruction type:
 
-```bash
-sudo apt install open-vm-tools open-vm-tools-desktop
-sudo reboot
+```
+add, sub, fadd, fsub    = 1  (Simple arithmetic)
+mul, div, fmul, fdiv    = 2  (Heavy arithmetic)
+load, store, alloca     = 3  (Memory operations)
+call, invoke            = 5  (Function calls)
+other                   = 1  (Default)
 ```
 
-Create and mount the shared folder:
+### 2. Performance Profile Classification
 
-```bash
-sudo mkdir -p /mnt/hgfs
-sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+Functions are automatically classified:
+
+| Profile          | Characteristics   | Optimization       | Example          |
+| ---------------- | ----------------- | ------------------ | ---------------- |
+| 🎯 Compute-Bound | <20% memory ops   | SIMD/Vectorization | Matrix multiply  |
+| ⚖️ Balanced      | 20-50% memory ops | Mixed optimization | Image processing |
+| ⚡ Memory-Bound  | >50% memory ops   | Cache optimization | Hash tables      |
+
+### 3. Anti-Pattern Detection
+
+Automatically detects inefficient patterns:
+
+- **High Memory Pressure** - >40% of cost in memory ops
+- **Call Chain Overhead** - >5 function calls in one function
+- **Computation Underutilization** - <20% arithmetic intensity
+- **Expensive Instruction Mix** - Average weight > 2.5
+
+### 4. Smart Recommendations
+
+Context-aware suggestions:
+
+```
+IF memory_ratio > 0.5 THEN
+  Suggest: Cache optimization, memory pooling, prefetching
+
+IF arithmetic_ops > 10 AND memory_ratio < 0.7 THEN
+  Suggest: SIMD/AVX vectorization, auto-vectorizer flags
+
+IF calls > 3 THEN
+  Suggest: Function inlining analysis, call fusion
 ```
 
-### Step 2: Navigate to Project
+### 5. Analysis Toolkit
 
-```bash
-cd /mnt/hgfs/cd-el
+Python-based post-processing tool offering:
+
+- Cross-function comparisons
+- Module-level statistics
+- Format conversions (JSON, CSV)
+- Trend analysis
+
+---
+
+## 🎓 What This Project Demonstrates
+
+This is not just an optimization tool—it's a **complete educational and research platform** showing:
+
+1. **Modern LLVM Design** - Plugin-based architecture for dynamic loading
+2. **IR Analysis Techniques** - Safe, efficient codebase traversal
+3. **Performance Metrics** - Quantifying computational complexity
+4. **Pattern Recognition** - Automatic efficiency detection
+5. **Software Engineering** - Clean abstractions, extensible design
+6. **Toolchain Integration** - Multiple output formats for ecosystem
+
+---
+
+## 📦 Project Structure
+
+```
+cd-el/
+├── src/
+│   └── WeightedPass.cpp              # LLVM pass source code
+├── testcases/
+│   ├── test1.c / test1.ll            # Arithmetic-heavy test files
+│   └── test2.c / test2.ll            # Memory/call-heavy test files
+├── CMakeLists.txt                    # Build configuration
+├── build.sh                          # Compilation shell script for Kali/Linux
+├── run.sh                            # Execution shell script for Kali/Linux
+├── DESIGN.md                         # Design document (approach & alternatives)
+├── IMPLEMENTATION.md                 # Implementation details (LLVM APIs)
+├── EVALUATION.md                     # Evaluation report (metrics, comparison)
+├── README.md                         # This file
+├── analysis_toolkit.py               # Python analysis and reporting tool
+└── build/                            # Build output directory
 ```
 
-This directory contains:
+---
 
-- `WeightedPass.cpp` - The LLVM pass implementation
-- `CMakeLists.txt` - Build configuration
-- `test1.ll` - Arithmetic-heavy test file
-- `test2.ll` - Memory/call-heavy test file
+## 🚀 Quick Start
 
-### Step 3: Install Dependencies
-
-Update package manager and install required tools:
-
+### Step 1: Install Dependencies (Kali Linux)
+Update the package manager and install the required compiler tools:
 ```bash
 sudo apt update
 sudo apt install llvm clang cmake make libzstd-dev
 ```
 
-These packages provide:
-
-- **llvm/clang**: The LLVM compiler infrastructure needed to compile passes
-- **cmake**: Build system generator
-- **make**: Build tool
-- **libzstd-dev**: Compression library required by LLVM
-
-### Step 4: Create and Configure Build Directory
-
-Clean any previous builds and create a fresh build directory:
-
+### Step 2: Build the LLVM Pass
+Run the automated build script:
 ```bash
-rm -rf build
-mkdir build
-cd build
+chmod +x build.sh
+./build.sh
 ```
-
-Configure the project with CMake. This step is critical—it detects LLVM installation and sets up C++17 compilation:
-
-```bash
-cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_DIR=$(llvm-config --cmakedir) ..
-```
-
-Breakdown of this command:
-
-- `-DCMAKE_BUILD_TYPE=Release`: Builds optimized release binary (no debug symbols)
-- `-DLLVM_DIR=$(llvm-config --cmakedir)`: Automatically finds LLVM installation path
-- `..`: Specifies parent directory contains CMakeLists.txt
-
-### Step 5: Build the LLVM Pass Plugin
-
-```bash
-make
-```
-
-Expected output sequence:
-
-```
-[ 50%] Building CXX object CMakeFiles/WeightedInstructionAnalysis.dir/WeightedPass.cpp.o
-[100%] Linking CXX shared module WeightedInstructionAnalysis.so
-[100%] Built target WeightedInstructionAnalysis
-```
-
-This generates `WeightedInstructionAnalysis.so` - a shared library containing the pass.
-
-**Important Build Configuration Details:**
-
-The `CMakeLists.txt` specifies:
-
-- C++17 standard (required by LLVM 21)
-- Release build optimization flags
-- Automatic LLVM header and library detection
-- Pass plugin registration
+This script handles clean configurations, runs CMake to generate makefiles using the dynamic LLVM configuration, and builds the plugin library `build/WeightedInstructionAnalysis.so`.
 
 ---
 
 ## Running the Pass
 
-### Prerequisites
-
-Before running the pass, examine your test files. The pass only runs on functions that:
-
-1. Are defined (not just declarations)
-2. Contain at least one basic block
-3. Do **not** have the `optnone` attribute
-
-If your `.ll` files have `optnone` attributes, remove them:
-
+Run the automated run script to evaluate the pass against the test cases:
 ```bash
-sed -i 's/ optnone//g' ../test1.ll
-sed -i 's/ optnone//g' ../test2.ll
+chmod +x run.sh
+./run.sh
 ```
 
-### Execute on Test1 (Arithmetic-Heavy)
+### Manual Execution
+If you wish to execute the pass manually, use the following `opt` commands:
 
 ```bash
-opt -load-pass-plugin=./WeightedInstructionAnalysis.so \
+# Execute on testcase 1 (Arithmetic-Heavy)
+opt -load-pass-plugin=build/WeightedInstructionAnalysis.so \
     -passes=weighted-instruction-analysis \
     -disable-output \
-    ../test1.ll
-```
+    testcases/test1.ll
 
-### Execute on Test2 (Memory/Call-Heavy)
-
-```bash
-opt -load-pass-plugin=./WeightedInstructionAnalysis.so \
+# Execute on testcase 2 (Memory/Call-Heavy)
+opt -load-pass-plugin=build/WeightedInstructionAnalysis.so \
     -passes=weighted-instruction-analysis \
     -disable-output \
-    ../test2.ll
+    testcases/test2.ll
 ```
 
 ### Expected Output Format
-
+The pass outputs the metrics to `llvm::outs()` in this format:
 ```
 ==================================
 Function: function_name
@@ -171,19 +184,14 @@ Instruction Frequencies:
   add: 3
   mul: 1
   sub: 1
-  getelementptr: 0
-
 Total Weighted Cost: 47
-
 Most Expensive Instruction Type: load (weighted cost: 24)
 ==================================
 ```
-
 The output shows:
-
-- **Instruction Frequencies**: How many times each instruction type appears
-- **Total Weighted Cost**: Sum of (frequency × weight) for all instructions
-- **Most Expensive**: Which instruction type contributes most to overall cost
+- **Instruction Frequencies**: How many times each instruction type appears in the function (sorted alphabetically).
+- **Total Weighted Cost**: Sum of (frequency × weight) for all instructions.
+- **Most Expensive Instruction Type**: Which instruction type contributes most to overall cost.
 
 ### Debugging Mode
 
