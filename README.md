@@ -107,158 +107,70 @@ This is not just an optimization tool—it's a **complete educational and resear
 
 ```
 cd-el/
-├── WeightedPass.cpp                  # Enhanced LLVM pass implementation
+├── src/
+│   └── WeightedPass.cpp              # LLVM pass source code
+├── testcases/
+│   ├── test1.c / test1.ll            # Arithmetic-heavy test files
+│   └── test2.c / test2.ll            # Memory/call-heavy test files
 ├── CMakeLists.txt                    # Build configuration
-├── test1.ll                          # Arithmetic-heavy test file
-├── test2.ll                          # Memory/call-heavy test file
+├── build.sh                          # Compilation shell script for Kali/Linux
+├── run.sh                            # Execution shell script for Kali/Linux
+├── DESIGN.md                         # Design document (approach & alternatives)
+├── IMPLEMENTATION.md                 # Implementation details (LLVM APIs)
+├── EVALUATION.md                     # Evaluation report (metrics, comparison)
 ├── README.md                         # This file
-├── ENHANCEMENTS.md                   # Detailed feature documentation
-├── USAGE_GUIDE.md                    # Complete usage guide
 ├── analysis_toolkit.py               # Python analysis and reporting tool
-├── run_analysis.sh                   # Bash workflow automation script
-├── run_analysis.ps1                  # PowerShell workflow script
-└── build/                            # Build directory
-    └── WeightedInstructionAnalysis.so # Compiled plugin
-
-EXECUTION_COMMANDS.md                 # Quick reference (original)
-EXPLANATION.txt                       # Pass explanation (original)
+└── build/                            # Build output directory
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-### Step 1: Build
-
-If running on a virtual machine with shared folders, install VMware tools for file sharing:
-
-```bash
-sudo apt install open-vm-tools open-vm-tools-desktop
-sudo reboot
-```
-
-Create and mount the shared folder:
-
-```bash
-sudo mkdir -p /mnt/hgfs
-sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
-```
-
-### Step 2: Navigate to Project
-
-```bash
-cd /mnt/hgfs/cd-el
-```
-
-This directory contains:
-
-- `WeightedPass.cpp` - The LLVM pass implementation
-- `CMakeLists.txt` - Build configuration
-- `test1.ll` - Arithmetic-heavy test file
-- `test2.ll` - Memory/call-heavy test file
-
-### Step 3: Install Dependencies
-
-Update package manager and install required tools:
-
+### Step 1: Install Dependencies (Kali Linux)
+Update the package manager and install the required compiler tools:
 ```bash
 sudo apt update
 sudo apt install llvm clang cmake make libzstd-dev
 ```
 
-These packages provide:
-
-- **llvm/clang**: The LLVM compiler infrastructure needed to compile passes
-- **cmake**: Build system generator
-- **make**: Build tool
-- **libzstd-dev**: Compression library required by LLVM
-
-### Step 4: Create and Configure Build Directory
-
-Clean any previous builds and create a fresh build directory:
-
+### Step 2: Build the LLVM Pass
+Run the automated build script:
 ```bash
-rm -rf build
-mkdir build
-cd build
+chmod +x build.sh
+./build.sh
 ```
-
-Configure the project with CMake. This step is critical—it detects LLVM installation and sets up C++17 compilation:
-
-```bash
-cmake -DCMAKE_BUILD_TYPE=Release -DLLVM_DIR=$(llvm-config --cmakedir) ..
-```
-
-Breakdown of this command:
-
-- `-DCMAKE_BUILD_TYPE=Release`: Builds optimized release binary (no debug symbols)
-- `-DLLVM_DIR=$(llvm-config --cmakedir)`: Automatically finds LLVM installation path
-- `..`: Specifies parent directory contains CMakeLists.txt
-
-### Step 5: Build the LLVM Pass Plugin
-
-```bash
-make
-```
-
-Expected output sequence:
-
-```
-[ 50%] Building CXX object CMakeFiles/WeightedInstructionAnalysis.dir/WeightedPass.cpp.o
-[100%] Linking CXX shared module WeightedInstructionAnalysis.so
-[100%] Built target WeightedInstructionAnalysis
-```
-
-This generates `WeightedInstructionAnalysis.so` - a shared library containing the pass.
-
-**Important Build Configuration Details:**
-
-The `CMakeLists.txt` specifies:
-
-- C++17 standard (required by LLVM 21)
-- Release build optimization flags
-- Automatic LLVM header and library detection
-- Pass plugin registration
+This script handles clean configurations, runs CMake to generate makefiles using the dynamic LLVM configuration, and builds the plugin library `build/WeightedInstructionAnalysis.so`.
 
 ---
 
 ## Running the Pass
 
-### Prerequisites
-
-Before running the pass, examine your test files. The pass only runs on functions that:
-
-1. Are defined (not just declarations)
-2. Contain at least one basic block
-3. Do **not** have the `optnone` attribute
-
-If your `.ll` files have `optnone` attributes, remove them:
-
+Run the automated run script to evaluate the pass against the test cases:
 ```bash
-sed -i 's/ optnone//g' ../test1.ll
-sed -i 's/ optnone//g' ../test2.ll
+chmod +x run.sh
+./run.sh
 ```
 
-### Execute on Test1 (Arithmetic-Heavy)
+### Manual Execution
+If you wish to execute the pass manually, use the following `opt` commands:
 
 ```bash
-opt -load-pass-plugin=./WeightedInstructionAnalysis.so \
+# Execute on testcase 1 (Arithmetic-Heavy)
+opt -load-pass-plugin=build/WeightedInstructionAnalysis.so \
     -passes=weighted-instruction-analysis \
     -disable-output \
-    ../test1.ll
-```
+    testcases/test1.ll
 
-### Execute on Test2 (Memory/Call-Heavy)
-
-```bash
-opt -load-pass-plugin=./WeightedInstructionAnalysis.so \
+# Execute on testcase 2 (Memory/Call-Heavy)
+opt -load-pass-plugin=build/WeightedInstructionAnalysis.so \
     -passes=weighted-instruction-analysis \
     -disable-output \
-    ../test2.ll
+    testcases/test2.ll
 ```
 
 ### Expected Output Format
-
+The pass outputs the metrics to `llvm::outs()` in this format:
 ```
 ==================================
 Function: function_name
@@ -272,19 +184,14 @@ Instruction Frequencies:
   add: 3
   mul: 1
   sub: 1
-  getelementptr: 0
-
 Total Weighted Cost: 47
-
 Most Expensive Instruction Type: load (weighted cost: 24)
 ==================================
 ```
-
 The output shows:
-
-- **Instruction Frequencies**: How many times each instruction type appears
-- **Total Weighted Cost**: Sum of (frequency × weight) for all instructions
-- **Most Expensive**: Which instruction type contributes most to overall cost
+- **Instruction Frequencies**: How many times each instruction type appears in the function (sorted alphabetically).
+- **Total Weighted Cost**: Sum of (frequency × weight) for all instructions.
+- **Most Expensive Instruction Type**: Which instruction type contributes most to overall cost.
 
 ### Debugging Mode
 
