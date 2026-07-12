@@ -27,6 +27,10 @@ This is useful for:
 
 ## Complete Setup and Build Workflow
 
+> [!NOTE]
+> * For dedicated instructions on running inside a VMware Workstation Pro Kali Linux VM, please refer to the [VMWARE_KALI_GUIDE.md](VMWARE_KALI_GUIDE.md).
+> * For dedicated macOS instructions (covering Apple Silicon/Intel architectures and Homebrew configuration), please refer to the [MAC_RUN_GUIDE.md](MAC_RUN_GUIDE.md).
+
 ### Step 1: Environment Setup on Kali Linux
 
 If running on a virtual machine with shared folders, install VMware tools for file sharing:

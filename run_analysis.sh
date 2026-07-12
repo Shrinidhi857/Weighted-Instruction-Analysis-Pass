@@ -127,8 +127,15 @@ echo ""
 if [ "$BUILD_FIRST" = true ]; then
     print_status "Building pass plugin..."
     if [ -d "build" ]; then
-        cd build
-        make -j$(nproc)
+        # Determine number of CPU cores
+        if command -v nproc &> /dev/null; then
+            NUM_CORES=$(nproc)
+        elif command -v sysctl &> /dev/null; then
+            NUM_CORES=$(sysctl -n hw.ncpu)
+        else
+            NUM_CORES=2
+        fi
+        make -j$NUM_CORES
         cd ..
         print_success "Build completed"
     else
@@ -141,9 +148,22 @@ if [ "$BUILD_FIRST" = true ]; then
 fi
 
 # Step 2: Check if pass plugin exists
-if [ ! -f "$PASS_PLUGIN" ] && [ ! -f "build/$PASS_PLUGIN" ]; then
-    PASS_PLUGIN="build/WeightedInstructionAnalysis.so"
-    if [ ! -f "$PASS_PLUGIN" ]; then
+if [ ! -f "$PASS_PLUGIN" ]; then
+    # Try locating the library in current directory or build directory with various suffixes/prefixes
+    FOUND_PLUGIN=""
+    for name in "WeightedInstructionAnalysis.so" "libWeightedInstructionAnalysis.so" "WeightedInstructionAnalysis.dylib" "libWeightedInstructionAnalysis.dylib"; do
+        if [ -f "$name" ]; then
+            FOUND_PLUGIN="$name"
+            break
+        elif [ -f "build/$name" ]; then
+            FOUND_PLUGIN="build/$name"
+            break
+        fi
+    done
+    
+    if [ -n "$FOUND_PLUGIN" ]; then
+        PASS_PLUGIN="$FOUND_PLUGIN"
+    else
         print_error "Pass plugin not found. Build it first with --build flag"
         exit 1
     fi

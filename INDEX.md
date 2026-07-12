@@ -13,12 +13,15 @@
 1. Source code: [WeightedPass.cpp](WeightedPass.cpp) - Enhanced LLVM pass
 2. Build config: [CMakeLists.txt](CMakeLists.txt) - Compilation setup
 3. Python tools: [analysis_toolkit.py](analysis_toolkit.py) - Post-processing
+4. Theory & Walkthrough: [docs/theory_and_stepwise_guide.md](docs/theory_and_stepwise_guide.md) - Deep-dive architecture guide
 
 ### For DevOps/Automation
 
 1. Bash: [run_analysis.sh](run_analysis.sh) - Linux/macOS automation
 2. PowerShell: [run_analysis.ps1](run_analysis.ps1) - Windows automation
 3. Reference: [EXECUTION_COMMANDS.md](EXECUTION_COMMANDS.md) - Quick commands
+4. VM/Kali: [VMWARE_KALI_GUIDE.md](VMWARE_KALI_GUIDE.md) - Guide for VMware Workstation Pro Kali Linux
+5. macOS: [MAC_RUN_GUIDE.md](MAC_RUN_GUIDE.md) - Guide for running on macOS
 
 ---
 
@@ -47,6 +50,9 @@
 | [run_analysis.sh](run_analysis.sh)                     | Bash workflow script   | 250+  |
 | [run_analysis.ps1](run_analysis.ps1)                   | PowerShell script      | 280+  |
 | [INDEX.md](INDEX.md)                                   | This file              | -     |
+| [VMWARE_KALI_GUIDE.md](VMWARE_KALI_GUIDE.md)           | VMware Kali Run Guide  | 60+   |
+| [MAC_RUN_GUIDE.md](MAC_RUN_GUIDE.md)                   | macOS Run Guide        | 60+   |
+| [docs/theory_and_stepwise_guide.md](docs/theory_and_stepwise_guide.md) | Theory & Walkthrough | 250+ |
 
 ---
 

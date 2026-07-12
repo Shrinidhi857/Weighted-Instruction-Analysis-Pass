@@ -5,9 +5,16 @@ set -e
 echo "=== Running Weighted Instruction Analysis Pass ==="
 
 # Check if build artifact exists
-SO_FILE="build/WeightedInstructionAnalysis.so"
-if [ ! -f "$SO_FILE" ]; then
-    echo "Error: $SO_FILE not found. Please run ./build.sh first."
+SO_FILE=""
+for name in "WeightedInstructionAnalysis.so" "libWeightedInstructionAnalysis.so" "WeightedInstructionAnalysis.dylib" "libWeightedInstructionAnalysis.dylib"; do
+    if [ -f "build/$name" ]; then
+        SO_FILE="build/$name"
+        break
+    fi
+done
+
+if [ -z "$SO_FILE" ]; then
+    echo "Error: Build artifact not found in build/. Please run ./build.sh first."
     exit 1
 fi
 

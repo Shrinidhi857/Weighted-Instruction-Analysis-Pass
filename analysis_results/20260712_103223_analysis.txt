@@ -1,0 +1,16 @@
+==================================
+Function: arithmetic_heavy
+==================================
+Instruction Frequencies:
+  add: 3
+  alloca: 3
+  br: 4
+  icmp: 1
+  load: 11
+  mul: 1
+  ret: 1
+  store: 8
+  sub: 1
+Total Weighted Cost: 78
+Most Expensive Instruction Type: load (weighted cost: 33)
+==================================
