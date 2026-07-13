@@ -75,9 +75,38 @@ The reports will be saved in the `./analysis_results/` directory.
 ### Option C: Manual Execution (Using LLVM `opt`)
 If you want to run the pass manually using LLVM's `opt` tool:
 
+```bash
 # Use build/WeightedInstructionAnalysis.so or build/libWeightedInstructionAnalysis.so depending on what was compiled
 opt -load-pass-plugin=build/WeightedInstructionAnalysis.so \
     -passes=weighted-instruction-analysis \
     -disable-output \
     testcases/test1.ll
 ```
+
+### Option D: Direct Python Toolkit Execution
+If you want to run the Python post-processing toolkit directly on the raw analysis results (to view detailed memory usage, anti-patterns, and optimization recommendations):
+
+1. **Generate Raw Pass Output**:
+   First, run the LLVM pass manually and redirect its output to a file:
+   ```bash
+   opt -load-pass-plugin=build/WeightedInstructionAnalysis.so \
+       -passes=weighted-instruction-analysis \
+       -disable-output \
+       testcases/test1.ll > raw_output.txt 2>&1
+   ```
+
+2. **Analyze with the Python Toolkit**:
+   Run the toolkit on the raw output file to generate a formatted, human-readable text report:
+   ```bash
+   python3 analysis_toolkit.py raw_output.txt --text
+   ```
+
+3. **Export Structured Formats**:
+   You can also run the toolkit to output JSON or CSV formats:
+   ```bash
+   # Export to JSON
+   python3 analysis_toolkit.py raw_output.txt --json > report.json
+
+   # Export to CSV
+   python3 analysis_toolkit.py raw_output.txt --csv > report.csv
+   ```

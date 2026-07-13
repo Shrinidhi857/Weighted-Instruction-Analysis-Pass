@@ -5,8 +5,9 @@
 ### For First-Time Users
 
 1. Start here: [README.md](README.md) - Overview and quick start
-2. Then read: [EXTRAORDINARY_FEATURES.md](EXTRAORDINARY_FEATURES.md) - What's new
-3. Deep dive: [USAGE_GUIDE.md](USAGE_GUIDE.md) - Complete workflows
+2. Research Write-up: [WRITEUP.md](WRITEUP.md) - Project abstract, methodology, and outcome
+3. Then read: [EXTRAORDINARY_FEATURES.md](EXTRAORDINARY_FEATURES.md) - What's new
+4. Deep dive: [USAGE_GUIDE.md](USAGE_GUIDE.md) - Complete workflows
 
 ### For Developers
 
@@ -53,6 +54,7 @@
 | [VMWARE_KALI_GUIDE.md](VMWARE_KALI_GUIDE.md)           | VMware Kali Run Guide  | 60+   |
 | [MAC_RUN_GUIDE.md](MAC_RUN_GUIDE.md)                   | macOS Run Guide        | 60+   |
 | [docs/theory_and_stepwise_guide.md](docs/theory_and_stepwise_guide.md) | Theory & Walkthrough | 250+ |
+| [WRITEUP.md](WRITEUP.md)                               | Research Write-up      | 150+  |
 
 ---
 
